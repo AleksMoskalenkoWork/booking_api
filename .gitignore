@@ -1,0 +1,11 @@
+# Node modules
+node_modules/
+dist
+build
+# vscode
+.vscode/*
+# Lock file
+package-lock.json
+.env
+.env.*
+.env.*.*
