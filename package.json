@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "cross-env nodemon app.js"
+    "dev": "cross-env nodemon app.js",
+    "start": "node app.js"
   },
   "author": "",
   "license": "ISC",
@@ -14,6 +14,7 @@
     "cross-env": "^7.0.3",
     "dotenv": "^17.0.1",
     "express": "^5.1.0",
+    "mongoose": "^8.16.2",
     "nodemon": "^3.1.10"
   }
 }
